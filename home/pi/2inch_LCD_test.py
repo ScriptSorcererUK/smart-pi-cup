@@ -10,6 +10,10 @@ sys.path.append("..")
 from lib import LCD_2inch
 from PIL import Image,ImageDraw,ImageFont
 
+
+# From https://www.waveshare.com/wiki/2inch_LCD_Module#Download_Examples
+# Wiring matches that of the website above
+
 # Raspberry Pi pin configuration:
 RST = 27
 DC = 25
@@ -27,9 +31,12 @@ try:
     # Clear display.
     disp.clear()
     #Set the backlight to 100
-    disp.bl_DutyCycle(100)
+    disp.bl_DutyCycle(50)
 
+    
+    # argv code from https://realpython.com/python-command-line-arguments/#displaying-arguments
     logging.info("show image " + sys.argv[1])
+    # Loads the file from the command-line
     image = Image.open(sys.argv[1])
     image = image.rotate(180)
     disp.ShowImage(image)
@@ -39,8 +46,12 @@ except IOError as e:
     logging.info(e)
 
 secs = 5
+# If there is a second argument in the command-line that is used as the show time.
+# If there isn't or if it isn't a number then it crashes and the time is left at 5 seconds.
 try:
     secs = int(sys.argv[2])
 except:
     print("Using default time")
+
+# This is how long the image shows on the screen. After the program closes the screen goes off.
 time.sleep(secs)
