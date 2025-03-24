@@ -42,7 +42,11 @@
 # Uncomment some or all of these to enable the optional hardware interfaces
 #dtparam=i2c_arm=on
 #dtparam=i2s=on
+
+
+#We had to enable this to make our SPI screen work
 dtparam=spi=on
+
 
 # Uncomment this to enable the lirc-rpi module
 #dtoverlay=lirc-rpi
@@ -56,7 +60,6 @@ dtparam=spi=on
 #arm_freq=900
 #core_freq=400
 s#dram_freq=450
-
 
 #arm_freq_min=400
 #sdram_freq_min=400
