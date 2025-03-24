@@ -2,6 +2,8 @@
 
 Project Summary https://github.com/SANGERA2/smart-pi-cup/blob/main/500%20words.docx
 
+Video of it working here https://youtu.be/UA9RDfUE4MI
+
 The main Python program file is here https://github.com/SANGERA2/smart-pi-cup/blob/main/home/pi/pirates.py
 
 The Python file to show pictures on the screen is here https://github.com/SANGERA2/smart-pi-cup/blob/main/home/pi/2inch_LCD_test.py
