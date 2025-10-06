@@ -1,19 +1,19 @@
 # smart-pi-cup
 
-Project Summary https://github.com/SANGERA2/smart-pi-cup/blob/main/500%20words.docx
+Project Summary [500%20words.docx](500%20words.docx)
 
 Video of it working here https://youtu.be/UA9RDfUE4MI
 
-The main Python program file is here https://github.com/SANGERA2/smart-pi-cup/blob/main/home/pi/pirates.py
+The main Python program file is here [home/pi/pirates.py](home/pi/pirates.py)
 
-The Python file to show pictures on the screen is here https://github.com/SANGERA2/smart-pi-cup/blob/main/home/pi/2inch_LCD_test.py
+The Python file to show pictures on the screen is here [home/pi/2inch_LCD_test.py](home/pi/2inch_LCD_test.py)
 
-The file to make the Python file run when the Pi turns on is here https://github.com/SANGERA2/smart-pi-cup/blob/main/lib/systemd/system/pirates.service
+The file to make the Python file run when the Pi turns on is here [lib/systemd/system/pirates.service](lib/systemd/system/pirates.service)
 
-The modified config.txt file to enable SPI for our screen is here https://github.com/SANGERA2/smart-pi-cup/blob/main/boot/config.txt
+The modified config.txt file to enable SPI for our screen is here [boot/config.txt](boot/config.txt)
 
-You can see the hardware we bought and what it was all used for as well as all the websites we used for software and guides and how it was used https://github.com/SANGERA2/smart-pi-cup/blob/main/hardware%20and%20software.xlsx
+You can see the hardware we bought and what it was all used for as well as all the websites we used for software and guides and how it was used [hardware%20and%20software.xlsx](hardware%20and%20software.xlsx)
 
-Here is our build guide https://github.com/SANGERA2/smart-pi-cup/blob/main/Build%20guide_New.docx
+Here is our build guide [Build%20guide_New.docx](Build%20guide_New.docx)
 
 The 3D model files and LOTS of photos of the build are here https://www.thingiverse.com/thing:6545514
